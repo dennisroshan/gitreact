@@ -1,0 +1,54 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left:10%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup input,
+  .popup select,
+  .popup button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .popup input:hover,
+  .popup select:hover,
+  .popup button:hover{
+    background-color: rgb(156, 148, 148);
+    color: #f0f0f0;
+    
+
+  }
+  .selected-schemas {
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-top: 10px;
+  }
+  .click
+  {
+    background-color: #84dede;
+    position: fixed;
+    bottom:0;
+    padding:25px;
+    border-radius: 6px;
+    margin-left:45%;
+    border: none;
+    color: aliceblue;
+
+  }
+  .click:hover{
+        background-color: aquamarine;
+  }
